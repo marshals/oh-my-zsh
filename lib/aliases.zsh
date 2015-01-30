@@ -25,7 +25,8 @@ then
 else
     alias history='fc -l 1'
 fi
-# List direcory contents
+
+# List directory contents
 alias lsa='ls -lah'
 alias l='ls -lah'
 alias ll='ls -lh'
@@ -46,6 +47,11 @@ alias rdm='rake db:migrate'
 alias rdr='rake db:rollback'
 alias ram='rake apartment:migrate'
 alias rgm='rails generate migration'
+alias beg="bundle exec guard"
 
 # Project aliases
 alias n360='cd ~/code/strenuus/network360'
+alias nexus="cd ~/code/strenuus/provider-nexus-api"
+
+# Postgres stuff
+alias pglog='tail -f /usr/local/var/postgres/server.log'
