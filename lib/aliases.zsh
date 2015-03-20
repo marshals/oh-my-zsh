@@ -55,3 +55,5 @@ alias nexus="cd ~/code/strenuus/provider-nexus-api"
 
 # Postgres stuff
 alias pglog='tail -f /usr/local/var/postgres/server.log'
+
+alias rake='noglob rake'
